@@ -5,7 +5,7 @@ from tensorflow.keras import layers, models
 from tensorflow.keras.preprocessing.image import ImageDataGenerator
 
 # Set dataset path
-dataset_path = "ai_dataset"  # Change this path if needed
+dataset_path = "whai_dataset"  # Change this path if needed
 train_dir = os.path.join(dataset_path, "train")
 test_dir = os.path.join(dataset_path, "test")
 
