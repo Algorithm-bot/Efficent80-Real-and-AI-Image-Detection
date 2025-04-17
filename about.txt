@@ -1,0 +1,37 @@
+Here’s a well-structured explanation for your **About** webpage:  
+
+---
+
+## **About Our AI Image Detection Model**  
+
+### **How It Works**  
+Our AI-powered image detection model helps distinguish between AI-generated images and real photographs. It uses **EfficientNetB0**, a state-of-the-art deep learning model known for its high accuracy and efficiency in image classification. The model analyzes an image’s features, such as texture, patterns, and inconsistencies, to determine whether it was created by an AI or captured in real life.  
+
+When a user uploads an image, our system **preprocesses it** by resizing it to **224×224 pixels** and normalizing its pixel values. The processed image is then passed through the trained neural network, which outputs a probability score indicating whether the image is AI-generated or real. If the score crosses a certain threshold, the model classifies it as an **AI-generated image**, otherwise, it is classified as a **real photograph**.  
+
+### **How We Trained the Model**  
+We trained the model using a **large dataset of AI-generated images and real-world photographs**. The dataset was divided into two categories:  
+- **AI-generated images** (collected from various AI art generators like Midjourney, Stable Diffusion, and DALL·E).  
+- **Real images** (sourced from open-image datasets and stock photography).  
+
+To ensure the model learns effectively, we used **data augmentation** techniques like rotation, flipping, zooming, and color shifts. This helps the model recognize AI-generated patterns across various image styles and resolutions.  
+
+The training process involved **fine-tuning EfficientNetB0**, a pre-trained deep learning model, on our dataset. We split the data into:  
+- **80% for training** (to help the model learn patterns).  
+- **20% for validation** (to check performance during training).  
+Additionally, we tested the model on **completely unseen test images** to measure accuracy and prevent overfitting.  
+
+### **Accuracy and Performance**  
+Our model achieves **high accuracy** in detecting AI-generated images. It has been optimized to reduce false positives and false negatives, ensuring **reliable results**. However, as AI-generated images become more advanced, we continue improving our model by training it with newer datasets.  
+
+### **Future Improvements**  
+We plan to enhance the model further by:  
+- Training it on a **larger dataset** with new AI-generated images.  
+- Using **more advanced neural networks** for better precision.  
+- Adding support for **real-time detection** in videos.  
+
+Our goal is to provide an accurate and easy-to-use tool for detecting AI-generated images. Try uploading an image and see for yourself! 🚀  
+
+---
+
+This explanation is **clear, informative, and user-friendly** while maintaining a technical depth. Let me know if you need modifications! 😊
